@@ -3,28 +3,35 @@
     height: auto;
     display: flex;
     background-color: lime;
+    /*Sets the direction the flexible items use.*/
     flex-direction: row;
+    /*Makes the flexible items wrap if needed.*/
     flex-wrap: wrap;
     
 }
 .navContainFlex > div{
+    /*Flex: Defines the size of the flexbox items*/
     flex: 1;
     margin:10px;
     width:25px;
     height:auto;
     text-align: center;
+    /*Aligns the flex items*/
     justify-content:center;
+    /*Centers the items*/
     align-items: center;
 }
-
+/*:hover: This selects and edits the elements that are currently being hovered over by the mouse.*/
 a:hover{
     background-color:black;
     color:white;
     transition: 0.2s;
 }
+/*:link: This selects and edits the unclicked links*/
 a:link{
     text-decoration-line: overline;
 }
+/*:active: This selects and edits the active and working links.*/
 a:active{
     font-weight: bold;
 }
@@ -58,16 +65,19 @@ div > a {
     background-color:tan;
     width:100%;
     height: 400px;
+    /*Aligns the flex items*/
     justify-content:center;
 }
 .flex-box-2 > div {
     background-color:lightpink;
     width:200px;
     height:200px;
+    /*Centers the items*/
     align-self: center;
 }
 #pseudo-classes-list{
     display:flex;
+    /*Sets the direction the flexible items use.*/
     flex-direction: column;
     width: 200px;
     margin:auto;
@@ -80,10 +90,12 @@ div > a {
     width:100px;
     padding: 15px;
 }
+/*:nth-child(1): This selects and edits the 1st child of it's parent*/
 .items-in-list:nth-child(1) {
     background-color:white;
     color:aqua;
 }
+/*:nth-child(3): This selects and edits the 3rd child of it's parent*/
 .items-in-list:nth-child(3) {
     background-color:white;
     color:aqua;
@@ -100,14 +112,17 @@ div > a {
     flex:3;
     transition: 0.2s;
 }
+/*::first-letter: This selects and edits the first letter in all <p> tags*/
 p::first-letter{
     color:blue;
     font-weight: bold;
 }
+/*::first-letter: This selects and edits whatever the user has selected.*/
 p::selection{
     color:yellow;
     background-color:black;
 }
+/*:last-of-type: This selects and edits the last of whatever it is applied to.*/
 p:last-of-type{
     text-decoration-line: underline;
 }

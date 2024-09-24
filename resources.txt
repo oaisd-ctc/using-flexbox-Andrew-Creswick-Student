@@ -1,1 +1,24 @@
+Flexbox
 https://www.w3schools.com/css/css3_flexbox.asp
+Pseudo Classes:
+https://www.w3schools.com/css/css_pseudo_classes.asp
+Hover Class:
+https://www.w3schools.com/cssref/sel_hover.php
+nth-of-type() Class:
+https://www.w3schools.com/cssref/sel_nth-of-type.php
+link Class:
+https://www.w3schools.com/cssref/sel_link.php
+Active Class:
+https://www.w3schools.com/cssref/sel_active.php
+Flex-wrap:
+https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp
+Flex-direction:
+https://www.w3schools.com/cssref/css3_pr_flex-direction.asp
+display:
+https://www.w3schools.com/cssref/pr_class_display.asp
+justify-content:
+https://www.w3schools.com/cssref/css3_pr_justify-content.asp
+align-items:
+https://www.w3schools.com/cssref/css3_pr_align-items.php
+order:
+https://www.w3schools.com/cssref/css3_pr_order.php
